@@ -95,7 +95,7 @@ resource "aws_nat_gateway" "nat_eip" {
 resource "aws_route" "admin_private_route_access" {
   route_table_id         = aws_route_table.admin_rt_private.id
   destination_cidr_block = "0.0.0.0/0"
-  nat_gateway_id      = aws_nat_gateway.nat_eip.id
+  nat_gateway_id         = aws_nat_gateway.nat_eip.id
 }
 
 resource "aws_route_table_association" "admin_rt_associate_private" {
