@@ -1,4 +1,5 @@
-# HashiCorp and AWS Episode. Microservices foundation
+
+d# HashiCorp and AWS Episode. Microservices foundation
 
 ## Episode 1 
 
@@ -12,4 +13,6 @@
 4.  An AWS IAM User with Permission 
 5.  AWS CLI Set up with AWS IAM User from #4
 
-## Episode 2
+## Episode 2 3/3/2022
+
+1.  

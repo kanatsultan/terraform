@@ -2,7 +2,7 @@ variable "default_tags" {
   type        = map(string)
   description = "default tags to apply on all resources"
   default = {
-    project = "Learning Live with AWS & HashiCorp"
+    project = "Learning-Live-AWS-HashiCorp"
   }
 }
 

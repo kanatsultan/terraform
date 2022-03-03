@@ -15,3 +15,12 @@ provider "aws" {
     tags = var.default_tags
   }
 }
+
+terraform {
+    backend "s3" {
+        bucket = "ks-terraform-state-s3-bucket"
+        key    = "terraform/remote/s3/terraform.tfstate"
+        dynamodb_table = "dynamodb-terraform-state-locking"
+        region = "us-east-1"
+    }
+}
