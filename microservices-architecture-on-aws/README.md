@@ -15,4 +15,4 @@ d# HashiCorp and AWS Episode. Microservices foundation
 
 ## Episode 2 3/3/2022
 
-1.  
+1.  [Episode 1 Video](https://www.youtube.com/watch?v=imppNTvnM18)
